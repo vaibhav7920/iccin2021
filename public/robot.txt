@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap:https://iccin.co.in/sitemap.xml

@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="keywords"
+        content="iccin, International Conference on Computing Informatics & Networks, icin2020, icin 2020, bpit, bhagwan Parshuram institute of technology">
+    <title>Form</title>
+    <link rel="icon" href="bpit-images/logo_ICCIN_2020-removebg-preview.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://kit.fontawesome.com/61cb810c3e.js"></script>
+</head>
+
+<body>
+
+
+    <div class="loader row">
+        <img class="col-3" src="bpit-images/logo_ICCIN_2020-removebg-preview.png" alt="Loading..." />
+        <div class="display-1 white-txt col-10 text-center">ICCIN 2020</div>
+    </div>
+    <div class="row  justify-content-around top-image pt-3">
+        <div class="col-md-2 row justify-content-center  pb-3 blink_me"> <img class="r-logo"
+                src="bpit-images/springerlogo.png"> </div>
+        <div class="col-md-2 row justify-content-center  pb-3 blink_me"> <img class="r-logo"
+                src="bpit-images/aicte.png"> </div>
+
+        <div class="col-md-2  row justify-content-center blink_me  pb-3"> <img class="r-logo"
+                src="bpit-images/BPIT-Delhi-Logo.png"></div>
+        <div class="col-md-2 row justify-content-center blink_me pb-3"> <img class="r-logo" src="bpit-images/esci.png">
+        </div>
+        <div class="col-md-2 col-6 row justify-content-center pb-3 blink_me"> <img class="r-logo"
+                src="bpit-images/taylor.png"> </div>
+
+    </div>
+
+    <form class="container mt-5" id="submitform">
+        <div class="form-group row">
+            <label class="col-md-2 col-form-label mt-md-5" for="salute">Title</label>
+            <div class="col-md-10 mt-5">
+                <select class="form-control" id="salute">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Ms.</option>
+                    <option>Dr.</option>
+                    <option>Prof.</option>
+                </select>
+            </div>
+            <label for="name" class="col-md-2 col-form-label mt-md-5">Name</label>
+            <div class="col-md-10 mt-5">
+                <input class="form-control" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="title" class="col-md-2 col-form-label">Title of Paper</label>
+            <div class="col-md-10">
+                <input class="form-control" id="title" placeholder="Title">
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="abstract" class="col-md-2 col-form-label">Abstract</label>
+            <div class="col-md-10">
+                <textarea type="text" class="form-control" id="abstract" placeholder="Abstract"></textarea>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="keywords" class="col-md-2 col-form-label">Keywords</label>
+            <div class="col-md-10">
+                <textarea type="text" class="form-control" id="keywords" placeholder="Keywords"></textarea>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+        <fieldset class="form-group">
+            <div class="row mt-5">
+                <legend class="col-form-label col-md-2 pt-0">Series</legend>
+                <div class="col-md-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios"  value="ESCI" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            ESCI Series
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios"  value="Springer">
+                        <label class="form-check-label" for="gridRadios2">
+                            Springer Series
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+        </fieldset>
+        <a href="https://easychair.org/conferences/?conf=iccin2020" id="submit" target="_blank"> <button
+            type="submit" class="btn btn-danger">Submit</button></a>
+    </form>
+
+    <footer class="page-footer footer-centered text-center py-3">
+        <div class="row">
+            <div class=" col-md-3 quick  text-center py-3">
+                <h4>Quick Links</h4>
+                <a href="form.html" target="_blank">Submit Your Paper</a><br>
+                <a href="download.html">Downloads</a><br>
+                <a href="">Plagiarism Policy</a><br>
+                <a href="index.html#sps">Sponsorship</a><br>
+                <a href="https://indianvisaonline.gov.in/evisa/tvoa.html">E-Visa</a><br>
+            </div>
+            <div class="col-md-9">
+                <img src="bpit-images/logo_ICCIN_2020-removebg-preview.png">
+
+                <div class="copyright">© Created by Vaibhav</div>
+            </div>
+        </div>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
